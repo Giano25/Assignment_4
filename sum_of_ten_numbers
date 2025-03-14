@@ -1,0 +1,5 @@
+total = 0
+for _ in range(10):
+    num = float(input("Enter a number: "))
+    total += num
+print("Sum:", total)
